@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-24T12:13:42 IST" name="Suite" finished-at="2022-11-24T12:17:17 IST" duration-ms="215678">
+    <groups>
+    </groups>
+    <test started-at="2022-11-24T12:13:42 IST" name="MacFireFox" finished-at="2022-11-24T12:13:54 IST" duration-ms="12013">
+      <class name="day5.SeleniumParallel">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:day5.SeleniumParallel@e350b40]" started-at="2022-11-24T12:13:42 IST" name="setup" finished-at="2022-11-24T12:13:49 IST" duration-ms="7090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ventura]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ineuron()[pri:0, instance:day5.SeleniumParallel@e350b40]" started-at="2022-11-24T12:13:49 IST" name="ineuron" finished-at="2022-11-24T12:13:52 IST" duration-ms="2765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ineuron -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day5.SeleniumParallel@e350b40]" started-at="2022-11-24T12:13:52 IST" name="tearDown" finished-at="2022-11-24T12:13:54 IST" duration-ms="2135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- day5.SeleniumParallel -->
+    </test> <!-- MacFireFox -->
+    <test started-at="2022-11-24T12:13:42 IST" name="FireFox" finished-at="2022-11-24T12:13:58 IST" duration-ms="15951">
+      <class name="day5.SeleniumParallel">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:day5.SeleniumParallel@18df8434]" started-at="2022-11-24T12:13:42 IST" name="setup" finished-at="2022-11-24T12:13:53 IST" duration-ms="11742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[latest-beta]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ineuron()[pri:0, instance:day5.SeleniumParallel@18df8434]" started-at="2022-11-24T12:13:53 IST" name="ineuron" finished-at="2022-11-24T12:13:56 IST" duration-ms="2913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ineuron -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day5.SeleniumParallel@18df8434]" started-at="2022-11-24T12:13:56 IST" name="tearDown" finished-at="2022-11-24T12:13:58 IST" duration-ms="1284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- day5.SeleniumParallel -->
+    </test> <!-- FireFox -->
+    <test started-at="2022-11-24T12:13:42 IST" name="MacChrome" finished-at="2022-11-24T12:14:11 IST" duration-ms="29577">
+      <class name="day5.SeleniumParallel">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:day5.SeleniumParallel@1e0b4072]" started-at="2022-11-24T12:13:42 IST" name="setup" finished-at="2022-11-24T12:14:04 IST" duration-ms="22602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ventura]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[102.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ineuron()[pri:0, instance:day5.SeleniumParallel@1e0b4072]" started-at="2022-11-24T12:14:04 IST" name="ineuron" finished-at="2022-11-24T12:14:10 IST" duration-ms="5470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ineuron -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day5.SeleniumParallel@1e0b4072]" started-at="2022-11-24T12:14:10 IST" name="tearDown" finished-at="2022-11-24T12:14:11 IST" duration-ms="1489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- day5.SeleniumParallel -->
+    </test> <!-- MacChrome -->
+    <test started-at="2022-11-24T12:13:42 IST" name="Edge" finished-at="2022-11-24T12:14:22 IST" duration-ms="40272">
+      <class name="day5.SeleniumParallel">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:day5.SeleniumParallel@25641d39]" started-at="2022-11-24T12:13:42 IST" name="setup" finished-at="2022-11-24T12:13:48 IST" duration-ms="6339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ineuron()[pri:0, instance:day5.SeleniumParallel@25641d39]" started-at="2022-11-24T12:13:48 IST" name="ineuron" finished-at="2022-11-24T12:14:21 IST" duration-ms="32570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ineuron -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day5.SeleniumParallel@25641d39]" started-at="2022-11-24T12:14:21 IST" name="tearDown" finished-at="2022-11-24T12:14:22 IST" duration-ms="1336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- day5.SeleniumParallel -->
+    </test> <!-- Edge -->
+    <test started-at="2022-11-24T12:13:42 IST" name="Chrome" finished-at="2022-11-24T12:17:17 IST" duration-ms="215678">
+      <class name="day5.SeleniumParallel">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:day5.SeleniumParallel@437da279]" started-at="2022-11-24T12:13:42 IST" name="setup" finished-at="2022-11-24T12:14:16 IST" duration-ms="34023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[105.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="ineuron()[pri:0, instance:day5.SeleniumParallel@437da279]" started-at="2022-11-24T12:14:16 IST" name="ineuron" finished-at="2022-11-24T12:17:16 IST" duration-ms="180010" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[java.util.concurrent.TimeoutException
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ec61857ccb020520798ade40d651ab41a3dc3073, get {url=https://ineuron-courses.vercel.app/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.54, chrome: {chromedriverVersion: 105.0.5195.19 (b9c217c128c1..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:1954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: ec61857ccb020520798ade40d65...}
+Session ID: ec61857ccb020520798ade40d651ab41a3dc3073]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [ec61857ccb020520798ade40d651ab41a3dc3073, get {url=https://ineuron-courses.vercel.app/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.54, chrome: {chromedriverVersion: 105.0.5195.19 (b9c217c128c1..., userDataDir: C:\Windows\proxy\scoped_dir...}, goog:chromeOptions: {debuggerAddress: localhost:1954}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: ec61857ccb020520798ade40d65...}
+Session ID: ec61857ccb020520798ade40d651ab41a3dc3073
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:65)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:49)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)
+at org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:99)
+at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:55)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)
+at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:541)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+at day5.SeleniumParallel.ineuron(SeleniumParallel.java:47)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.util.concurrent.TimeoutException
+at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1886)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2021)
+at org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)
+at org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:59)
+... 35 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ineuron -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:day5.SeleniumParallel@437da279]" started-at="2022-11-24T12:17:16 IST" name="tearDown" finished-at="2022-11-24T12:17:17 IST" duration-ms="1621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- day5.SeleniumParallel -->
+    </test> <!-- Chrome -->
+  </suite> <!-- Suite -->
+</testng-results>

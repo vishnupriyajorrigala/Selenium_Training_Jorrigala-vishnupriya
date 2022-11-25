@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="smoke(failed)" verbose="0">
+    <classes>
+      <class name="test.DDTExample2">
+        <methods>
+          <include name="tearup"/>
+          <include name="setup"/>
+          <include name="myTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- test.DDTExample2 -->
+      <class name="test.HandleDynamicElements2">
+        <methods>
+          <include name="handledynamic"/>
+        </methods>
+      </class> <!-- test.HandleDynamicElements2 -->
+      <class name="test.TakesScreenshotDemo">
+        <methods>
+          <include name="screenshot"/>
+        </methods>
+      </class> <!-- test.TakesScreenshotDemo -->
+      <class name="test.MyFirstSeleniumScript2">
+        <methods>
+          <include name="ineuron"/>
+        </methods>
+      </class> <!-- test.MyFirstSeleniumScript2 -->
+    </classes>
+  </test> <!-- smoke(failed) -->
+</suite> <!-- Failed suite [Suite] -->
